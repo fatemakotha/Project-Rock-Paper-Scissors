@@ -1,3 +1,4 @@
+import random 
 rock = '''
     _______
 ---'   ____)
@@ -31,10 +32,13 @@ print(rpc)
 
 agent_input = int(input("What do you want to choose? Type 0 for Rock, 1 for Paper or 2 for Scissors"))
 
+
 if agent_input == 0:
-  random_decision = random_decision.choice(rpc)
-  
-  print(f"Computer chose {random_decision}")
+ random_decision = random.choice(rpc)
+ print(f"Computer chose {random_decision}")
+else:
+ print("P")
+
 
 
 
