@@ -26,7 +26,7 @@ scissors = '''
 ---.__(___)
 '''
 
-
+playing_images = [rock, paper, scissors]#rock=0th index, paper=1st index and scissors=2nd index
 
 
 
