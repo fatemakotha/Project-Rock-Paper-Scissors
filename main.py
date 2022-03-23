@@ -26,18 +26,7 @@ scissors = '''
 ---.__(___)
 '''
 
-#Write your code below this line 👇
-rpc = [rock, paper, scissors]
-print(rpc)
 
-agent_input = int(input("What do you want to choose? Type 0 for Rock, 1 for Paper or 2 for Scissors"))
-
-
-if agent_input == 0:
- random_decision = random.choice(rpc)
- print(f"Computer chose {random_decision}")
-else:
- print("P")
 
 
 
